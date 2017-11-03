@@ -1,20 +1,52 @@
 # Elm Workshop
 
-# Steps
+Hello! Today let's play with Elm.
+http://elm-lang.org/
 
-pre:
-- install editor plugin
+# Syllabus
+
+- View introduction video: https://www.youtube.com/watch?v=vgsckgtVdoQ
+- Install elm: `npm install -g elm`
+- Start dev server: `elm-reactor`
+- Copy code in #Code section of this file into project: pbpaste > Main.elm
+- Start improving!
+
+Tip: think data first, change the Model first, not the View.
+
+# Improvements
+## Milestone #1
+
+Suggestion to accomplish as a group, lead by teacher
+
+- [ ] Change name to email
+- [ ] Add confirmation email box
+- [ ] The let statement in the `viewValidation` is hiding important business logic! Let's extract it!
+
+## Milestone #2
+
+Suggested with one ore more pairing partner(s)
+
+- [ ] Wait for input into confirmation boxes before saying they don't match
+- [ ] Only accept virta health email addresses (something@virtahealth.com)
+- [ ] Make sure status is reflective of specific error
+- [ ] Adding spacing and visual structure to form
+- [ ] Wait till a user enters the confirmation box to test validity
+- [ ] Work those HTML/CSS muscles, make the form beautiful 💃
 
 
-during:
-- install elm: `npm install -g elm`
-- start dev server: `elm-reactor`
-- copy code into project: pbpaste > Main.elm
+## Milestone 3
 
+Have it your way, baby!
 
+- [ ] Turn this into a react component! (https://github.com/evancz/react-elm-components)
+- [ ] Install a live reloader or other debugging tools (elm-live, http://debug.elm-lang.org/)
+- [ ] `/=` trips me up, add `!=` as an operator to the program (http://elm-lang.org/docs/syntax)
+- [ ] Test the extracted business logic core! (elm-test)
+- [ ] ✨ Anything your heart can dream of ✨ (http://stoney.sb.org/eno/oblique.html)
 
+# Starting Code
 
-# Code
+Copy this code into a text file named `Main.elm` and run `elm-reactor`
 
 ```
 import Html exposing (..)
@@ -83,3 +115,14 @@ viewValidation model =
   in
     div [ style [("color", color)] ] [ text message ]
 ```
+
+# Resources
+
+- elm slack: https://elmlang.herokuapp.com/ (very active + helpful!)
+- elm subreddit: http://reddit.com/r/elm (same!)
+- elm koans: https://github.com/robertjlooby/elm-koans
+- install editor plugin (Configure Your Editor - https://guide.elm-lang.org/install.html)
+
+# Troubleshooting
+
+If all else fails, use ellie (https://ellie-app.com/new). but the dev ergonomics are not nearly as good.
