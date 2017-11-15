@@ -57,6 +57,8 @@ Have it your way, baby!
 
 # Starting Code
 
+(From: https://guide.elm-lang.org/architecture/user_input/forms.html)
+
 Copy this code into a text file named `Main.elm` and run `elm-reactor`
 
 ```
