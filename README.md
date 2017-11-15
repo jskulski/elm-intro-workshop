@@ -3,7 +3,7 @@
 Hello! Today let's play with Elm.
 http://elm-lang.org/
 
-# Syllabus
+# Overview
 
 - View introduction video: https://www.youtube.com/watch?v=vgsckgtVdoQ
 - Install elm: `npm install -g elm`
@@ -13,14 +13,25 @@ http://elm-lang.org/
 
 Tip: think data first, change the Model first, not the View.
 
-# Improvements
+# Syllabus
+## Starting 
+
+Start with our humble create account form. It asks for your username, a password and asks you to confirm your password.
+
+![Screengif of the starting form](doc/start.gif)
+
 ## Milestone #1
 
-Suggestion to accomplish as a group, lead by teacher
+(Suggestion to accomplish as a group, lead by teacher)
+
+Business indicates that moving to email (which we'll need to confirm) is the way to go. If you can also add a header, that'd be great. Also, take some time to leave it better than you found it!
 
 - [ ] Change name to email
 - [ ] Add confirmation email box
+- [ ] Add a header to explain the form
 - [ ] The let statement in the `viewValidation` is hiding important business logic! Let's extract it!
+
+![Screengif of the starting form](doc/milestone1.gif)
 
 ## Milestone #2
 
