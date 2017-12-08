@@ -11,10 +11,10 @@ http://elm-lang.org/
 - Copy code in #Code section of this file into project: pbpaste > Main.elm
 - Start improving!
 
-Tip: think data first, change the Model first, not the View.
+Tip: think data first, change the Model first.
 
 # Syllabus
-## Starting 
+## Starting
 
 Start with our humble create account form. It asks for your username, a password and asks you to confirm your password.
 
@@ -80,8 +80,8 @@ type alias Model =
   }
 
 
-model : Model
-model =
+initialModel : Model
+initialModel =
   Model "" "" ""
 
 
