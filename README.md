@@ -68,7 +68,7 @@ import Html.Events exposing (onInput)
 
 
 main =
-  Html.beginnerProgram { model = model, view = view, update = update }
+  Html.beginnerProgram { model = initialModel, view = view, update = update }
 
 
 -- MODEL
